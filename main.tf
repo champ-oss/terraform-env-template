@@ -1,3 +1,3 @@
 module "this" {
-  source = "github.com/champ-oss/terraform-module-template.git?ref=85ab230c4f873f7a34e068ec7630cfd1197bdf8d"
+  source = "github.com/champ-oss/terraform-module-template.git?ref=a5e38c849cdff227e61fc59fbe665f58467ac521"
 }
