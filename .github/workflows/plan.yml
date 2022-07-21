@@ -34,10 +34,6 @@ jobs:
           echo "TF_VAR_git=$(echo ${GITHUB_REPOSITORY} | sed -e 's|.*/||')" >> $GITHUB_ENV
 
           cat << EOF > auto.tf
-          terraform {
-            backend "s3" {}
-          }
-
           variable "git" {}
           EOF
       - name: init
